@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 640b52b005f736744b3aabdfb8f24abb, type: 3}
+  m_Name: Pants
+  m_EditorClassIdentifier: 
+  ItemName: Pants
+  ItemSprite: {fileID: 21300000, guid: e69d7ae8a00a6fc4ba8cc78db4e86c16, type: 3}
+  Description: 
+  WorldObjectPrefab: {fileID: 0}
+  Slot: 2
+  MinimumStrength: 4
+  MinimumAgility: 0
+  MinimumDefense: 0
+  EquippedEffects:
+  - {fileID: 9038995015821622162}
+--- !u!114 &9038995015821622162
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 052d5a2a30743294597a36c5eb80c7f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Description: To keep you warm, and safe!
