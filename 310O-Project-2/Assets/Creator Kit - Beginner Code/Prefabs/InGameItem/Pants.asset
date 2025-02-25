@@ -15,7 +15,8 @@ MonoBehaviour:
   ItemName: Pants
   ItemSprite: {fileID: 21300000, guid: e69d7ae8a00a6fc4ba8cc78db4e86c16, type: 3}
   Description: 
-  WorldObjectPrefab: {fileID: 0}
+  WorldObjectPrefab: {fileID: 7595769090345656566, guid: 34113042a9f5eb64f90c1c08a1998539,
+    type: 3}
   Slot: 2
   MinimumStrength: 4
   MinimumAgility: 0
