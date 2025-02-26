@@ -40,9 +40,9 @@ MonoBehaviour:
   HitSounds: []
   SwingSounds: []
   Stats:
-    Speed: 0.3
+    Speed: 0.7
     MinimumDamage: 2
     MaximumDamage: 4
-    MaxRange: 1
+    MaxRange: 2
   AttackEffects:
   - {fileID: -1746141027582807831}

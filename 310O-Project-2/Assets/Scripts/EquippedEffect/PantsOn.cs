@@ -5,13 +5,17 @@ using CreatorKitCode;
 
 public class PantsOn : EquipmentItem.EquippedEffect
 {
-     public override void Equipped(CharacterData user)
+    StatSystem.StatModifier modifier = new StatSystem.StatModifier();
+    public override void Equipped(CharacterData user)
      {
-        user.Stats.baseStats.defense += 7;
+        modifier.ModifierMode = StatSystem.StatModifier.Mode.Absolute;
+        modifier.Stats.defense = 7;
+
+        user.Stats.AddModifier(modifier);
      }
      
      public override void Removed(CharacterData user)
      {
-        user.Stats.baseStats.defense -= 7;
+        user.Stats.RemoveModifier(modifier);
      }
 }
